@@ -1,0 +1,243 @@
+/* =Common Styles
+-------------------------------------------------------------- */
+a {
+    color: #2ecc71;
+}
+
+span.divider {
+    background-color: #2ecc71;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+#contact .form-control:focus,
+#contact .form-control:hover, 
+#contact .form-control:active { 
+    border-color: #2ecc71;
+}
+
+#contact .has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
+    color: #2ecc71;
+}
+
+.demo_changer .demo-icon {
+    background: #26A377;
+}
+
+#royal_preloader.royal_preloader_number .royal_preloader_percentage:after {
+    border-left-color: #2ecc71;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background-color: #2ecc71;
+    border: 1px solid #2ecc71;
+    border-bottom: 2px solid #229379;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: #229379;
+}
+
+.nav-tabs>li>a:hover {
+    border-color: #229379;
+}
+
+a:focus, a:hover {
+    color: #2ecc71;
+}
+
+ul.list-arrow-2-color li:before {
+    color: #2ecc71;
+}
+
+ul.list-arrow-color li:before {
+    color: #2ecc71;
+}
+
+/* =Buttons
+-------------------------------------------------------------- */
+.btn-default:hover {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+}
+
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+}
+
+.btn-default.disabled.focus, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default[disabled].focus, .btn-default[disabled]:focus, .btn-default[disabled]:hover, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:hover {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+}
+
+.btn-primary {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+}
+
+.btn-primary:hover {
+    background-color: #27aa6b;
+    border-color: #27aa6b;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    background-color: #27aa6b;
+    border-color: #27aa6b;
+}
+
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    background-color: #27aa6b;
+    border-color: #27aa6b;
+}
+
+.btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
+    background-color: #27aa6b;
+    border-color: #27aa6b;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    background-color: #27aa6b;
+    border-color: #27aa6b;
+}
+
+.btn-light:hover {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #2ecc71;
+}
+
+/* =Progress Bars
+-------------------------------------------------------------- */
+.progress-bar {
+    background-color: #2ecc71;
+}
+
+/* =Modals
+-------------------------------------------------------------- */
+.modal-header {
+	background: #2ecc71; /* Old browsers */
+	background: -moz-linear-gradient(left, #2ecc71 0%, #27aa6b 35%, #2ecc71 64%, #229379 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #2ecc71 0%,#27aa6b 35%,#2ecc71 64%,#229379 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #2ecc71 0%,#27aa6b 35%,#2ecc71 64%,#229379 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ecc71', endColorstr='#229379',GradientType=1 ); /* IE6-9 */
+}
+
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+    border-color: #2ecc71;
+}
+
+/* =Navigation
+-------------------------------------------------------------- */
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: #2ecc71;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #2ecc71;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #2ecc71;
+    background-color: #2ecc71;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #27aa6b;
+}
+
+/* =Jumbotron Main
+-------------------------------------------------------------- */
+#particles-js {
+	background: #2ecc71; /* Old browsers */
+	background: -moz-linear-gradient(left, #2ecc71 0%, #27aa6b 35%, #2ecc71 64%, #229379 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #2ecc71 0%,#27aa6b 35%,#2ecc71 64%,#229379 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #2ecc71 0%,#27aa6b 35%,#2ecc71 64%,#229379 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ecc71', endColorstr='#229379',GradientType=1 ); /* IE6-9 */
+}
+
+/* =Our Process
+-------------------------------------------------------------- */
+#our-process .process-icons {
+	color: #2ecc71;
+}
+
+/* =Testimonial
+-------------------------------------------------------------- */
+.fade-quote-carousel.carousel .carousel-indicators .active {
+	background-color: #2ecc71;
+}
+
+.fade-quote-carousel.carousel .carousel-indicators > li {
+	border: 1px solid #2ecc71;
+}
+
+/* =Services
+-------------------------------------------------------------- */
+.services-icon { 
+    font-size: 40px;
+    color: #2ecc71;
+}
+
+/* =About
+-------------------------------------------------------------- */
+.basic-carousel.carousel .carousel-indicators > li {
+	border: 1px solid #2ecc71;
+}
+
+.basic-carousel.carousel .carousel-indicators .active {
+	background-color: #2ecc71;
+}
+
+/* =Our Count
+-------------------------------------------------------------- */
+#ourcount .item > .circle-hold {
+    background-color: #2ecc71;
+}
+
+/* =Team
+-------------------------------------------------------------- */
+.team-image-wrapper .team-image-hover {
+	background-color: rgba(46, 204, 113, 0.71); 
+}
+
+/* =Work
+-------------------------------------------------------------- */
+span.portfolio-hover {
+	background: #2ecc71; /* Old browsers */
+	background: -moz-linear-gradient(left, #2ecc71 0%, #27aa6b 35%, #2ecc71 64%, #229379 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #2ecc71 0%,#27aa6b 35%,#2ecc71 64%,#229379 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #2ecc71 0%,#27aa6b 35%,#2ecc71 64%,#229379 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ecc71', endColorstr='#229379',GradientType=1 ); /* IE6-9 */
+}
+
+.portfolio-links:hover {
+    color: #2ecc71;
+}
+
+/* =Pricing
+-------------------------------------------------------------- */
+.plan li > strong {
+	color: #2ecc71;
+}
+
+.plan.featured:hover li.plan-name {
+	background: #2ecc71;
+}

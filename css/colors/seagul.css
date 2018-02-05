@@ -1,0 +1,248 @@
+/* =Common Styles
+-------------------------------------------------------------- */
+a {
+    color: #65C6BB;
+}
+
+span.divider {
+    background-color: #65C6BB;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+#contact .form-control:focus,
+#contact .form-control:hover, 
+#contact .form-control:active { 
+    border-color: #65C6BB;
+}
+
+#contact .has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
+    color: #65C6BB;
+}
+
+.demo_changer .demo-icon {
+    background: #52A2A1;
+}
+
+#royal_preloader.royal_preloader_number .royal_preloader_percentage:after {
+    border-left-color: #65C6BB;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background-color: #65C6BB;
+    border: 1px solid #65C6BB;
+    border-bottom: 2px solid #52A2A1;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: #52A2A1;
+}
+
+.nav-tabs>li>a:hover {
+    border-color: #52A2A1;
+}
+
+a:focus, a:hover {
+    color: #65C6BB;
+}
+
+ul.list-arrow-2-color li:before {
+    color: #65C6BB;
+}
+
+ul.list-arrow-color li:before {
+    color: #65C6BB;
+}
+
+/* =Buttons
+-------------------------------------------------------------- */
+.btn-default:hover {
+    background-color: #65C6BB;
+    border-color: #65C6BB;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    background-color: #65C6BB;
+    border-color: #65C6BB;
+}
+
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    background-color: #65C6BB;
+    border-color: #65C6BB;
+}
+
+.btn-default.disabled.focus, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default[disabled].focus, .btn-default[disabled]:focus, .btn-default[disabled]:hover, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:hover {
+    background-color: #65C6BB;
+    border-color: #65C6BB;
+}
+
+.btn-primary {
+    background-color: #65C6BB;
+    border-color: #65C6BB;
+}
+
+.btn-primary:hover {
+    background-color: #58a8aa;
+    border-color: #58a8aa;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    background-color: #58a8aa;
+    border-color: #58a8aa;
+}
+
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    background-color: #58a8aa;
+    border-color: #58a8aa;
+}
+
+.btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
+    background-color: #58a8aa;
+    border-color: #58a8aa;
+}
+
+.btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
+    background-color: #58a8aa;
+    border-color: #58a8aa;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    background-color: #58a8aa;
+    border-color: #58a8aa;
+}
+
+.btn-light:hover {
+    background-color: #65C6BB;
+    border-color: #65C6BB;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #65C6BB;
+}
+
+/* =Progress Bars
+-------------------------------------------------------------- */
+.progress-bar {
+    background-color: #65C6BB;
+}
+
+/* =Modals
+-------------------------------------------------------------- */
+.modal-header {
+	background: #65c6bb; /* Old browsers */
+	background: -moz-linear-gradient(left, #65c6bb 0%, #58a8aa 35%, #6fd6c6 66%, #6accc0 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #65c6bb 0%,#58a8aa 35%,#6fd6c6 66%,#6accc0 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #65c6bb 0%,#58a8aa 35%,#6fd6c6 66%,#6accc0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65c6bb', endColorstr='#6accc0',GradientType=1 ); /* IE6-9 */
+}
+
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+    border-color: #65c6bb;
+}
+
+/* =Navigation
+-------------------------------------------------------------- */
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: #65C6BB;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #65C6BB;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #65C6BB;
+    background-color: #65C6BB;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #58a8aa;
+}
+
+/* =Jumbotron Main
+-------------------------------------------------------------- */
+#particles-js {
+	background: #65c6bb; /* Old browsers */
+	background: -moz-linear-gradient(left, #65c6bb 0%, #58a8aa 35%, #6fd6c6 66%, #6accc0 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #65c6bb 0%,#58a8aa 35%,#6fd6c6 66%,#6accc0 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #65c6bb 0%,#58a8aa 35%,#6fd6c6 66%,#6accc0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65c6bb', endColorstr='#6accc0',GradientType=1 ); /* IE6-9 */
+}
+
+/* =Our Process
+-------------------------------------------------------------- */
+#our-process .process-icons {
+	color: #65C6BB;
+}
+
+/* =Testimonial
+-------------------------------------------------------------- */
+.fade-quote-carousel.carousel .carousel-indicators .active {
+	background-color: #65C6BB;
+}
+
+.fade-quote-carousel.carousel .carousel-indicators > li {
+	border: 1px solid #65C6BB;
+}
+
+/* =Services
+-------------------------------------------------------------- */
+.services-icon { 
+    font-size: 40px;
+    color: #65C6BB;
+}
+
+/* =About
+-------------------------------------------------------------- */
+.basic-carousel.carousel .carousel-indicators > li {
+	border: 1px solid #65C6BB;
+}
+
+.basic-carousel.carousel .carousel-indicators .active {
+	background-color: #65C6BB;
+}
+
+/* =Our Count
+-------------------------------------------------------------- */
+#ourcount .item > .circle-hold {
+    background-color: #65C6BB;
+}
+
+/* =Team
+-------------------------------------------------------------- */
+.team-image-wrapper .team-image-hover {
+	background-color: rgba(101, 198, 187, 0.72); 
+}
+
+/* =Work
+-------------------------------------------------------------- */
+span.portfolio-hover {
+	background: #65c6bb; /* Old browsers */
+	background: -moz-linear-gradient(left, #65c6bb 0%, #58a8aa 35%, #6fd6c6 66%, #6accc0 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #65c6bb 0%,#58a8aa 35%,#6fd6c6 66%,#6accc0 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #65c6bb 0%,#58a8aa 35%,#6fd6c6 66%,#6accc0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65c6bb', endColorstr='#6accc0',GradientType=1 ); /* IE6-9 */
+}
+
+.portfolio-links:hover {
+    color: #65C6BB;
+}
+
+/* =Pricing
+-------------------------------------------------------------- */
+.plan li > strong {
+	color: #65C6BB;
+}
+
+.plan.featured:hover li.plan-name {
+	background: #65C6BB;
+}

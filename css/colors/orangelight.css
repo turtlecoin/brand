@@ -1,0 +1,248 @@
+/* =Common Styles
+-------------------------------------------------------------- */
+a {
+    color: #F2784B;
+}
+
+span.divider {
+    background-color: #F2784B;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+#contact .form-control:focus,
+#contact .form-control:hover, 
+#contact .form-control:active { 
+    border-color: #F2784B;
+}
+
+#contact .has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
+    color: #F2784B;
+}
+
+.demo_changer .demo-icon {
+    background: #EA543D;
+}
+
+#royal_preloader.royal_preloader_number .royal_preloader_percentage:after {
+    border-left-color: #F2784B;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background-color: #F2784B;
+    border: 1px solid #F2784B;
+    border-bottom: 2px solid #EA543D;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: #EA543D;
+}
+
+.nav-tabs>li>a:hover {
+    border-color: #EA543D;
+}
+
+a:focus, a:hover {
+    color: #F2784B;
+}
+
+ul.list-arrow-2-color li:before {
+    color: #F2784B;
+}
+
+ul.list-arrow-color li:before {
+    color: #F2784B;
+}
+
+/* =Buttons
+-------------------------------------------------------------- */
+.btn-default:hover {
+    background-color: #F2784B;
+    border-color: #F2784B;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    background-color: #F2784B;
+    border-color: #F2784B;
+}
+
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    background-color: #F2784B;
+    border-color: #F2784B;
+}
+
+.btn-default.disabled.focus, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default[disabled].focus, .btn-default[disabled]:focus, .btn-default[disabled]:hover, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:hover {
+    background-color: #F2784B;
+    border-color: #F2784B;
+}
+
+.btn-primary {
+    background-color: #F2784B;
+    border-color: #F2784B;
+}
+
+.btn-primary:hover {
+    background-color: #f9784d;
+    border-color: #f9784d;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    background-color: #f9784d;
+    border-color: #f9784d;
+}
+
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    background-color: #f9784d;
+    border-color: #f9784d;
+}
+
+.btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
+    background-color: #f9784d;
+    border-color: #f9784d;
+}
+
+.btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
+    background-color: #f9784d;
+    border-color: #f9784d;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    background-color: #f9784d;
+    border-color: #f9784d;
+}
+
+.btn-light:hover {
+    background-color: #F2784B;
+    border-color: #F2784B;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #F2784B;
+}
+
+/* =Progress Bars
+-------------------------------------------------------------- */
+.progress-bar {
+    background-color: #F2784B;
+}
+
+/* =Modals
+-------------------------------------------------------------- */
+.modal-header {
+	background: #f2784b; /* Old browsers */
+	background: -moz-linear-gradient(left, #f2784b 0%, #f9784d 35%, #f2614b 66%, #f2784b 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #f2784b 0%,#f9784d 35%,#f2614b 66%,#f2784b 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #f2784b 0%,#f9784d 35%,#f2614b 66%,#f2784b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2784b', endColorstr='#f2784b',GradientType=1 ); /* IE6-9 */
+}
+
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+    border-color: #f2784b;
+}
+
+/* =Navigation
+-------------------------------------------------------------- */
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: #F2784B;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #F2784B;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #F2784B;
+    background-color: #F2784B;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #e67e22;
+}
+
+/* =Jumbotron Main
+-------------------------------------------------------------- */
+#particles-js {
+	background: #f2784b; /* Old browsers */
+	background: -moz-linear-gradient(left, #f2784b 0%, #f9784d 35%, #f2614b 66%, #f2784b 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #f2784b 0%,#f9784d 35%,#f2614b 66%,#f2784b 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #f2784b 0%,#f9784d 35%,#f2614b 66%,#f2784b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2784b', endColorstr='#f2784b',GradientType=1 ); /* IE6-9 */
+}
+
+/* =Our Process
+-------------------------------------------------------------- */
+#our-process .process-icons {
+	color: #F2784B;
+}
+
+/* =Testimonial
+-------------------------------------------------------------- */
+.fade-quote-carousel.carousel .carousel-indicators .active {
+	background-color: #F2784B;
+}
+
+.fade-quote-carousel.carousel .carousel-indicators > li {
+	border: 1px solid #F2784B;
+}
+
+/* =Services
+-------------------------------------------------------------- */
+.services-icon { 
+    font-size: 40px;
+    color: #F2784B;
+}
+
+/* =About
+-------------------------------------------------------------- */
+.basic-carousel.carousel .carousel-indicators > li {
+	border: 1px solid #F2784B;
+}
+
+.basic-carousel.carousel .carousel-indicators .active {
+	background-color: #F2784B;
+}
+
+/* =Our Count
+-------------------------------------------------------------- */
+#ourcount .item > .circle-hold {
+    background-color: #F2784B;
+}
+
+/* =Team
+-------------------------------------------------------------- */
+.team-image-wrapper .team-image-hover {
+	background-color: rgba(242, 120, 75, 0.73); 
+}
+
+/* =Work
+-------------------------------------------------------------- */
+span.portfolio-hover {
+	background: #f2784b; /* Old browsers */
+	background: -moz-linear-gradient(left, #f2784b 0%, #f9784d 35%, #f2614b 66%, #f2784b 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #f2784b 0%,#f9784d 35%,#f2614b 66%,#f2784b 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #f2784b 0%,#f9784d 35%,#f2614b 66%,#f2784b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2784b', endColorstr='#f2784b',GradientType=1 ); /* IE6-9 */
+}
+
+.portfolio-links:hover {
+    color: #F2784B;
+}
+
+/* =Pricing
+-------------------------------------------------------------- */
+.plan li > strong {
+	color: #F2784B;
+}
+
+.plan.featured:hover li.plan-name {
+	background: #F2784B;
+}

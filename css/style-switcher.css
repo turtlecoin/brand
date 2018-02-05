@@ -1,0 +1,93 @@
+.blue-css-square { height:20px; width:20px; background-color:#3498db;margin-top:3px; }
+.green-css-square { height:20px; width:20px; background-color:#2ecc71;margin-top:3px; }
+.purple-css-square { height:20px; width:20px; background-color:#8980fe;margin-top:3px; }
+.orange-css-square { height:20px; width:20px; background-color:#f39c12;margin-top:3px; }
+.red-css-square { height:20px; width:20px; background-color:#FF3B30;margin-top:3px; }
+.teal-css-square { height:20px; width:20px; background-color:#1abc9c;margin-top:3px; }
+.orangelight-css-square { height:20px; width:20px; background-color:#F2784B;margin-top:3px; }
+.seagul-css-square { height:20px; width:20px; background-color:#65C6BB;margin-top:3px; }
+.pinkish-css-square { height:20px; width:20px; background-color:#F64747;margin-top:3px; }
+.dark-css-square { height:20px; width:20px; background-color:#505050;margin-top:3px; }
+.light-css-square { height:20px; width:20px; background-color:#DCDCDC;margin-top:3px; }
+
+#switcher-body .container {
+	background:#fff;
+	margin:50px auto;
+	border:1px solid #dedede;
+	padding:40px;
+}
+.demo_changer{ 
+    z-index: 1000; 
+    position: fixed;
+    left: -113px;
+    top: 210px; 
+    font-weight: 400 !important;
+}
+.demoPanel {
+	position:relative;
+}
+.demo_changer p {
+	margin:10px 0;
+}
+.demo_changer h4 {
+	margin:10px 0 !important;
+	color: #fff;
+	text-transform:none !important;
+	font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    padding-bottom: 0;
+}
+
+.demo_changer hr {
+	border-color:#464646;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+.demo_changer,
+.demo_changer p {
+	color:#545454 !important;
+}
+.demo_changer i {
+    color: #fff;
+    font-size: 21px;
+}
+.demo_changer .demo-icon{
+    cursor: pointer;
+	text-align:center;
+    background:#8980FE;
+	padding:2px;
+    float: right;
+    height: 40px;
+	line-height:40px;
+    width:41px;
+}
+.demo_changer .form_holder {
+	background-color:#2F2F2F;
+    cursor: pointer;
+    font-size: 12px;
+    float: right;
+    padding: 20px;
+    width: 113px;
+}
+.demo_changer .form_holder p{
+    font-size: 12px;
+}
+.demoPanel {
+    margin: 0;
+    padding: 0;
+    width: 125px;
+}
+.predefined_styles{
+    padding:0 5px;
+}
+
+.predefined_styles a{
+    font-family: 'Roboto';
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+	.demo_changer{
+	    top:125px;
+	}
+} 
