@@ -32,9 +32,14 @@ only_svg_files = [join(in_path, f) for f in listdir(in_path) if isfile(join(in_p
 
 for filename in only_svg_files:
     with open(filename, 'r+') as f:
-        print("Replacing height for {}".format(filename))
         data = f.read()
         output = data.replace('<svg width="100%" height="100%"', '<svg width="100%" height="20px"', 1)
+        
+        if output == data:
+            print("W: Could not find svg height for {}".format(filename))
+        else:
+            print("Replacing height for {}".format(filename))
+
         f.seek(0)
         f.write(output)
         f.truncate()
